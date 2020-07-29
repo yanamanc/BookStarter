@@ -2,10 +2,10 @@
   "name": "bookstarter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel serve ./src/index.html",
-    "build": "pacsel serve ./src/index.html"
+    "build": "parcel build ./src/index.html"
   },
   "author": "",
   "license": "ISC",

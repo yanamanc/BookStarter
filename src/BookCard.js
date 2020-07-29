@@ -1,9 +1,12 @@
 import React from 'react'
 
+import SubscribeBonus from './SubscribeBonus';
+
 class BookCard extends React.Component {
   render() {
     const {
-        book: { Title, Description, Pages, Language, Progress, ImageURL, Author, MinimalPrice, WantedPcice, MoneyWeHave, MoneyWeExpected }
+        book: { Title, Description, Pages, Language, Progress, ImageURL,
+                MinimalPrice, WantedPcice, MoneyWeHave, MoneyWeExpected, Subscribers }
     } = this.props;
 
     return (
@@ -15,11 +18,17 @@ class BookCard extends React.Component {
           <div>Pages: {Pages}</div>
           <div>Language: {Language}</div>
           <div>Progress: {Progress}</div>
-          <div>Author: {Author}</div>
           <div>Minimal Price: {MinimalPrice}</div>
           <div>Price we want: {WantedPcice}</div>
           <div>Money we have: {MoneyWeHave}</div>
           <div>Money we expected: {MoneyWeExpected}</div>
+          <div>
+            {Subscribers > 100 ?
+              <div><img src="https://pluspng.com/img-png/star-png-star-png-image-2156.png" width='20px'/>Subscribers: {Subscribers}</div>
+              : <div>Subscribers: {Subscribers}</div>
+            }
+          </div>
+          <SubscribeBonus />
         </div>
       </div>
     )

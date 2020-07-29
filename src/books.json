@@ -1,0 +1,119 @@
+[
+	{
+    "Title": "Dark tower",
+    "Description": "About shooter and dark tower",
+    "Pages": 10000,
+    "Language": "RU",
+    "Progress": "87%",
+    "ImageURL": "https://i.pinimg.com/236x/90/88/5b/90885b0aba135375e4e2c57e1b678100--dark-tower-tattoo-book-tattoo.jpg",
+		"Authors": [
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			}
+		],
+    "MinimalPrice": "200 $",
+    "WantedPcice": "300 $",
+    "MoneyWeHave": "50 $",
+		"MoneyWeExpected": "550 $",
+		"Subscribers": 195
+	},
+	{
+    "Title": "Carrie",
+    "Description": "About Carrie",
+    "Pages": 2000,
+    "Language": "RU",
+    "Progress": "58%",
+    "ImageURL": "https://m.media-amazon.com/images/I/51RsqPRrVfL.jpg",
+    "Authors": [
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			}
+		],
+    "MinimalPrice": "100 $",
+    "WantedPcice": "200 $",
+    "MoneyWeHave": "50 $",
+    "MoneyWeExpected": "250 $",
+		"Subscribers": 61
+	},
+	{
+    "Title": "IT",
+    "Description": "About IT",
+    "Pages": 3000,
+    "Language": "RU",
+    "Progress": "65%",
+    "ImageURL": "https://www.rd.com/wp-content/uploads/2016/10/It.jpg",
+		"Authors": [
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			},
+			{
+				"Name": "Stiven King",
+				"Email": "stin.king@horror.com",
+				"ImageURL": "https://i3.mybook.io/p/x256/author_photos/6e/8a/6e8afd0a-2d58-48c4-b468-e8d66f9b312f.jpg?v2",
+				"Description": "King of horror"
+			}
+		],
+    "MinimalPrice": "300 $",
+    "WantedPcice": "600 $",
+    "MoneyWeHave": "100 $",
+    "MoneyWeExpected": "420 $",
+		"Subscribers": 14
+	}
+]
