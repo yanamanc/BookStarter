@@ -1,6 +1,6 @@
-import React from 'react'
+import React          from 'react'
 
-import SubscribeBonus from './SubscribeBonus';
+import SubscribeBonus from './modals/SubscribeBonus';
 
 class BookCard extends React.Component {
   render() {
