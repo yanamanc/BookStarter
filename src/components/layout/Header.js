@@ -2,16 +2,14 @@ import React from 'react';
 
 import UserInfo from './UserInfo';
 
-class Header extends React.Component {
-    render () {
-      return (
-        <header style={styles.header}>
-          {this.props.children}
-          <UserInfo />
-        </header>
-      )
-    }
-  }
+const Header = ({ children }) => {
+  return (
+    <header style={styles.header}>
+      {children}
+      <UserInfo />
+    </header>
+  )
+}
 
 export default Header;
 

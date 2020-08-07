@@ -1,6 +1,8 @@
 import React          from 'react'
 
 import SubscribeBonus from './modals/SubscribeBonus';
+import SimilarBooks   from './SimilarBooks'
+
 
 class BookCard extends React.Component {
   render() {
@@ -29,6 +31,7 @@ class BookCard extends React.Component {
             }
           </div>
           <SubscribeBonus />
+          <SimilarBooks />
         </div>
       </div>
     )
