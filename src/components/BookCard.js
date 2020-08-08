@@ -1,14 +1,22 @@
 import React          from 'react'
+import PropTypes      from "prop-types"
 
 import SubscribeBonus from './modals/SubscribeBonus';
+import PriceConverter from "./PriceConverter"
 import SimilarBooks   from './SimilarBooks'
 
-
 class BookCard extends React.Component {
+  updatePrice = (price) => {
+    var authorPrice = price.target.value * 0.9
+    document.getElementById('rangevalue').value = price.target.value
+    document.getElementById('author-price').value = authorPrice
+    document.getElementById('authoralue').value   = authorPrice
+  }
+
   render() {
     const {
-        book: { Title, Description, Pages, Language, Progress, ImageURL,
-                MinimalPrice, WantedPcice, MoneyWeHave, MoneyWeExpected, Subscribers }
+        book: { Title, Description, Pages, Language, Progress, ImageURL, MinimalPrice,
+                WantedPcice, MoneyWeHave, MoneyWeExpected, Subscribers }
     } = this.props;
 
     return (
@@ -31,6 +39,7 @@ class BookCard extends React.Component {
             }
           </div>
           <SubscribeBonus />
+          <PriceConverter MinimalPrice={MinimalPrice} MoneyWeExpected={MoneyWeExpected} updatePrice={this.updatePrice} />
           <SimilarBooks />
         </div>
       </div>
