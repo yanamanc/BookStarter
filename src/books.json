@@ -32,11 +32,11 @@
 				"Description": "King of horror"
 			}
 		],
-    "MinimalPrice": "200 $",
+    "MinimalPrice": 20,
     "WantedPcice": "300 $",
     "MoneyWeHave": "50 $",
-		"MoneyWeExpected": "550 $",
-		"Subscribers": 195
+	"MoneyWeExpected": 550,
+	"Subscribers": 195
 	},
 	{
     "Title": "Carrie",
@@ -71,11 +71,11 @@
 				"Description": "King of horror"
 			}
 		],
-    "MinimalPrice": "100 $",
+    "MinimalPrice": 10,
     "WantedPcice": "200 $",
     "MoneyWeHave": "50 $",
-    "MoneyWeExpected": "250 $",
-		"Subscribers": 61
+    "MoneyWeExpected": 250,
+	"Subscribers": 61
 	},
 	{
     "Title": "IT",
@@ -110,10 +110,10 @@
 				"Description": "King of horror"
 			}
 		],
-    "MinimalPrice": "300 $",
+    "MinimalPrice": 30,
     "WantedPcice": "600 $",
     "MoneyWeHave": "100 $",
-    "MoneyWeExpected": "420 $",
-		"Subscribers": 14
+    "MoneyWeExpected": 420,
+	"Subscribers": 14
 	}
 ]
