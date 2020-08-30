@@ -1,6 +1,7 @@
 import React    from 'react';
 
 import BookCard from './BookCard';
+import BookContainer  from './BookContainer'
 
 class BooksList extends React.Component {
   render() {
@@ -8,7 +9,7 @@ class BooksList extends React.Component {
         <div>
           {this.props.books.map((book, idx) => (
             <div key={idx} style={StyleSheet.book}>
-              <BookCard book={book} />
+              <BookContainer />
             </div>
         ))}
       </div>
