@@ -5,7 +5,7 @@ import BookCard from './BookCard';
 
 const httpClient = axios.create({
   baseURL: 'https://api.airtable.com/v0/appWmtJL9lECLS7lQ',
-  timeout: 1000,
+  timeout: 10000,
   headers: {
     'Authorization': "Bearer key2YtnpGXsZoGQCQ"
   }
@@ -39,7 +39,7 @@ class BookContainer extends React.Component {
   }
 
   _fetchData() {
-    httpClient.get('/Books', {maxRecords: 10, view: 'Grid view'})
+    httpClient.get('/Books', { params: { maxRecords: 10, view: 'Grid view' }})
     .then(result => result.data)
     .then(this._mapFromAirtable)
     .then(record => { this.setState({ record }) })

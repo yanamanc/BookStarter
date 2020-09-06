@@ -1,7 +1,7 @@
 import React      from 'react'
 import PropTypes  from 'prop-types';
 
-import BooksList  from './components/BooksList'
+import BookContainer  from "./components/BookContainer"
 import AuthorList from "./components/AuthorList"
 import Footer     from "./components/layout/Footer"
 import Header     from "./components/layout/Header"
@@ -20,7 +20,7 @@ class App extends React.Component {
       <>
         <Header>BookStarter</Header>
         <main>
-          <BooksList books={this.props.books} />
+          <BookContainer />
           <AuthorList authors={this.props.books.Authors} />
         </main>
         <Footer>
